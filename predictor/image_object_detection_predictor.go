@@ -6,14 +6,14 @@ import (
 
 	"github.com/k0kubun/pp"
 	"github.com/pkg/errors"
-	"github.com/rai-project/caffe"
-	"github.com/rai-project/config"
-	"github.com/rai-project/dlframework"
-	"github.com/rai-project/dlframework/framework/agent"
-	"github.com/rai-project/dlframework/framework/options"
-	common "github.com/rai-project/dlframework/framework/predictor"
-	"github.com/rai-project/tracer"
-	"github.com/rai-project/tracer/ctimer"
+	"github.com/c3sr/caffe"
+	"github.com/c3sr/config"
+	"github.com/c3sr/dlframework"
+	"github.com/c3sr/dlframework/framework/agent"
+	"github.com/c3sr/dlframework/framework/options"
+	common "github.com/c3sr/dlframework/framework/predictor"
+	"github.com/c3sr/tracer"
+	"github.com/c3sr/tracer/ctimer"
 	gotensor "gorgonia.org/tensor"
 )
 

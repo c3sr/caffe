@@ -1,11 +1,8 @@
 # MLModelScope Caffe Agent
 
-[![Build Status](https://travis-ci.org/rai-project/caffe.svg?branch=master)](https://travis-ci.org/rai-project/caffe)
-[![Build Status](https://dev.azure.com/dakkak/rai/_apis/build/status/caffe)](https://dev.azure.com/dakkak/rai/_build/latest?definitionId=15)
-[![Go Report Card](https://goreportcard.com/badge/github.com/rai-project/caffe)](https://goreportcard.com/report/github.com/rai-project/caffe)
+[![Go Report Card](https://goreportcard.com/badge/github.com/c3sr/caffe)](https://goreportcard.com/report/github.com/c3sr/caffe)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-[![](https://images.microbadger.com/badges/version/carml/caffe:ppc64le-gpu-latest.svg)](https://microbadger.com/images/carml/caffe:ppc64le-gpu-latest> 'Get your own version badge on microbadger.com') [![](https://images.microbadger.com/badges/version/carml/caffe:ppc64le-cpu-latest.svg)](https://microbadger.com/images/carml/caffe:ppc64le-cpu-latest 'Get your own version badge on microbadger.com') [![](https://images.microbadger.com/badges/version/carml/caffe:amd64-cpu-latest.svg)](https://microbadger.com/images/carml/caffe:amd64-cpu-latest 'Get your own version badge on microbadger.com') [![](https://images.microbadger.com/badges/version/carml/caffe:amd64-gpu-latest.svg)](https://microbadger.com/images/carml/caffe:amd64-gpu-latest 'Get your own version badge on microbadger.com')
 
 This is the Caffe agent for [MLModelScope](mlmodelscope.org), an open-source framework and hardware agnostic, extensible and customizable platform for evaluating and profiling ML models across datasets / frameworks / systems, and within AI application pipelines.
 
@@ -22,7 +19,7 @@ Install go if you have not done so. Please follow [Go Installation](https://docs
 Download and install the MLModelScope Caffe Agent:
 
 ```
-go get -v github.com/rai-project/caffe
+go get -v github.com/c3sr/caffe
 
 ```
 
@@ -33,7 +30,7 @@ The agent requires The Caffe C library and other Go packages.
 You can install the dependency through `go get`.
 
 ```
-cd $GOPATH/src/github.com/rai-project/caffe
+cd $GOPATH/src/github.com/c3sr/caffe
 go get -u -v ./...
 ```
 
@@ -60,17 +57,17 @@ The Caffe C library is required.
 
 If you use Caffe Docker Images (e.g. NVIDIA GPU CLOUD (NGC)), skip this step.
 
-Refer to [go-caffe](https://github.com/rai-project/go-caffe#caffe-installation) for caffe installation.
+Refer to [go-caffe](https://github.com/c3sr/go-caffe#caffe-installation) for caffe installation.
 
 
 ## External services
 
-Refer to [External services](https://github.com/rai-project/tensorflow#external-services).
+Refer to [External services](https://github.com/c3sr/tensorflow#external-services).
 
 ## Use within Caffe Docker Images
 
-Refer to [Use within TensorFlow Docker Images](https://github.com/rai-project/tensorflow#use-within-tensorflow-docker-images).
+Refer to [Use within TensorFlow Docker Images](https://github.com/c3sr/tensorflow#use-within-tensorflow-docker-images).
 
 ## Usage
 
-Refer to [Usage](https://github.com/rai-project/tensorflow#usage)
+Refer to [Usage](https://github.com/c3sr/tensorflow#usage)

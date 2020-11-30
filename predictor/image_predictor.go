@@ -8,12 +8,12 @@ import (
 	opentracing "github.com/opentracing/opentracing-go"
 	olog "github.com/opentracing/opentracing-go/log"
 	"github.com/pkg/errors"
-	"github.com/rai-project/dlframework"
-	"github.com/rai-project/dlframework/framework/options"
-	common "github.com/rai-project/dlframework/framework/predictor"
-	"github.com/rai-project/downloadmanager"
-	gocaffe "github.com/rai-project/go-caffe"
-	"github.com/rai-project/tracer"
+	"github.com/c3sr/dlframework"
+	"github.com/c3sr/dlframework/framework/options"
+	common "github.com/c3sr/dlframework/framework/predictor"
+	"github.com/c3sr/downloadmanager"
+	gocaffe "github.com/c3sr/go-caffe"
+	"github.com/c3sr/tracer"
 )
 
 // ImagePredictor ...

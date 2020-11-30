@@ -4,12 +4,12 @@ import (
 	"context"
 	"testing"
 
-	"github.com/rai-project/caffe"
-	"github.com/rai-project/dlframework/framework/options"
-	raiimage "github.com/rai-project/image"
-	imageexamples "github.com/rai-project/image/examples"
-	"github.com/rai-project/image/types"
-	nvidiasmi "github.com/rai-project/nvidia-smi"
+	"github.com/c3sr/caffe"
+	"github.com/c3sr/dlframework/framework/options"
+	raiimage "github.com/c3sr/image"
+	imageexamples "github.com/c3sr/image/examples"
+	"github.com/c3sr/image/types"
+	nvidiasmi "github.com/c3sr/nvidia-smi"
 	"github.com/stretchr/testify/assert"
 	gotensor "gorgonia.org/tensor"
 )
